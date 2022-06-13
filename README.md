@@ -4,7 +4,7 @@
 The purpose of this analysis was to help Bobby determine how many employees are retiring and which of the of those employees are eligible for a mentorship program. 
 
 #### Results: Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
-- The titles with the highest number of employees that are about to retire are Senior Engineers and Senior Staff. This means that there will be more senior leaders elligible for the mentorship program than other titles. Also, from a business persepctive, this can potentially create a large gap in senior experience in the firm and may need to prepare a back-fill or promotion strategy to fill the spots of the impending retirees. 
+- The titles with the highest number of employees that are about to retire are Senior Engineers and Senior Staff. This means that there will be more senior leaders elligible for the mentorship program than other titles. Also, from a business perspective, this can potentially create a large gap in senior experience in the firm and may need to prepare a back-fill or promotion strategy to fill the spots of the impending retirees. 
 
 ![alt text](https://github.com/lauren1478/Pewlett-Hackard-Analysis-v2/blob/main/Count%20per%20Department.png)
 
