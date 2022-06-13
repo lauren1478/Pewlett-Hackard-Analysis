@@ -22,3 +22,10 @@ SELECT DISTINCT ON (rt.emp_no) rt.emp_no,
     FROM retirement_titles as rt
     WHERE rt.to_date = '9999-01-01'
     ORDER BY rt.emp_no, rt.to_date DESC;
+ 
+--number of employees about to retire
+SELECT COUNT(ut.title), ut.title
+    into retiring_titles
+    FROM unique_titles as ut
+    GROUP BY ut.title
+    order by count desc;
