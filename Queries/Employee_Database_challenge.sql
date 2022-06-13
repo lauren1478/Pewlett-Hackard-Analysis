@@ -39,9 +39,24 @@ SELECT DISTINCT ON(e.emp_no) e.emp_no,
 	de.from_date,
 	de.to_date,
 	ti.title
-	
+	into mentorship_eligibility
     FROM employees as e
     LEFT JOIN department_employees as de ON e.emp_no = de.emp_no
     left join titles as ti ON e.emp_no = ti.emp_no
     WHERE de.to_date = '9999-01-01' and (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
     order by e.emp_no
+
+--finding retiring salaries per title
+SELECT DISTINCT ON(rt.emp_no) rt.emp_no,
+    rt.title,
+	s.salary
+    into retirement_salaries
+FROM retirement_titles as rt
+LEFT JOIN salaries as s ON rt.emp_no = s.emp_no
+order by rt.emp_no
+
+SELECT title,
+	sum (salary)
+FROM retirement_salaries
+GROUP BY title
+order by sum desc
