@@ -29,3 +29,19 @@ SELECT COUNT(ut.title), ut.title
     FROM unique_titles as ut
     GROUP BY ut.title
     order by count desc;
+
+--Deliverable 2
+--determining retirement elligibility
+SELECT DISTINCT ON(e.emp_no) e.emp_no,
+    e.first_name,
+	e.last_name,
+    e.birth_date,
+	de.from_date,
+	de.to_date,
+	ti.title
+	
+    FROM employees as e
+    LEFT JOIN department_employees as de ON e.emp_no = de.emp_no
+    left join titles as ti ON e.emp_no = ti.emp_no
+    WHERE de.to_date = '9999-01-01' and (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
+    order by e.emp_no
