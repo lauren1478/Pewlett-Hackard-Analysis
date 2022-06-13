@@ -23,7 +23,7 @@ How many roles will need to be filled as the "silver tsunami" begins to make an 
 - 72,548 roles will need to be filled.
 
 Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
--There are not enough mentors for how many impending retirees there will be. 
+-There are not enough mentors for how many impending retirees there will be. There are about 46 retirees for every 1 elligible mentor.
 
 Retirees
 ![alt text](https://github.com/lauren1478/Pewlett-Hackard-Analysis-v2/blob/main/Count%20per%20Department.png)
