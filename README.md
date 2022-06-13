@@ -16,11 +16,13 @@ The purpose of this analysis was to help Bobby determine how many employees are 
 
 ![alt text](https://github.com/lauren1478/Pewlett-Hackard-Analysis-v2/blob/main/Count%20per%20Eligilibility.png)
 
-
+- 
 
 ## Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
 How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-- 72,548 roles will need to be filled.
+- At the end of the year, 72,548 roles will need to be filled and most likely will be filled on a rolling basis as people retire (they all won't retire at the same time). Below is the aggregate salaries per title of all retirees. This is a very large sum of money that can be budgeted back into resources to help fill the positions and support the trainings for those that did fill the positions.
+
+![alt text](https://github.com/lauren1478/Pewlett-Hackard-Analysis-v2/blob/main/salaries%20per%20title.png)
 
 Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 - There are not enough mentors for how many impending retirees there will be. There are about 46 retirees for every 1 elligible mentor.
