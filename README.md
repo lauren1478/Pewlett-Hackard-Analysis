@@ -12,7 +12,20 @@ The purpose of this analysis was to help Bobby determine how many employees are 
 
 ![alt text](https://github.com/lauren1478/Pewlett-Hackard-Analysis-v2/blob/main/Eligible%20Mentorship%20Bottom%208.png)
 
+- As predicted, a majortiy of the elligible mentors are seniors but there are none in the manager category.
+
+![alt text](https://github.com/lauren1478/Pewlett-Hackard-Analysis-v2/blob/main/Count%20per%20Eligilibility.png)
+
+
 
 ## Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
-    How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-    Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+- 72,548 roles will need to be filled.
+
+Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+-There are not enough mentors for how many impending retirees there will be. 
+
+Retirees
+![alt text](https://github.com/lauren1478/Pewlett-Hackard-Analysis-v2/blob/main/Count%20per%20Department.png)
+Elligible for the Mentorship program
+![alt text](https://github.com/lauren1478/Pewlett-Hackard-Analysis-v2/blob/main/Count%20per%20Eligilibility.png)
